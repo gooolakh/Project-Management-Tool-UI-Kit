@@ -3,6 +3,7 @@
     <router-view/>
     <router-link to="/SignUp">SignUp</router-link>
     <router-link to="/Header">Header</router-link>
+    <router-link to="/Activity">Activity</router-link>
   </div>
 </template>
 
