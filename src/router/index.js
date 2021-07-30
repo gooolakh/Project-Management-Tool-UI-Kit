@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import SignUp from '@/components/SignUp'
 import Header from '@/components/Header'
+import Activity from '@/components/Activity'
 
 Vue.use(Router)
 
@@ -20,6 +21,10 @@ export default new Router({
       path: '/Header',
       name: 'Header',
       component: Header
+    },{
+      path: '/Activity',
+      name: 'Activity',
+      component: Activity
     }
   ]
 })
